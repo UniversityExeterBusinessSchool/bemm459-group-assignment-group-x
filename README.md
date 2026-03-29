@@ -1,12 +1,12 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=23278359&assignment_repo_type=AssignmentRepo)
 
-# 🏨 The Deltin Hotel — Polyglot Persistence Application
+# The Deltin Hotel — Polyglot Persistence Application
 ### BEMM459 Database Technologies for Business Analytics
 **University of Exeter Business School | Group Assignment | March 2026**
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This project implements a **Polyglot Persistence** database application for **The Deltin**, a fictitious mid-to-upscale UK hotel chain. The application combines two database technologies to manage different categories of hotel data:
 
@@ -17,19 +17,19 @@ The two systems are integrated via a **Python pipeline** that assembles unified 
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
-📁 SQL/
-    DDL.sql          — Creates all 5 tables with constraints
-    DML.sql          — Inserts sample data and SELECT queries
+SQL/
+  DDL.sql          — Creates all 5 tables with constraints
+  DML.sql          — Inserts sample data and SELECT queries
 
-📁 NoSQL/
-    hotel_nosql.py   — MongoDB operations (insert & retrieve)
-    pipeline.py      — Connects SQL Server + MongoDB together
+NoSQL/
+  hotel_nosql.py   — MongoDB operations (insert & retrieve)
+  pipeline.py      — Connects SQL Server + MongoDB together
 
-📁 ER diagram/
-    ERD_Diagram.pdf          — Entity-Relationship Diagram
+ER diagram/
+  ERD_Diagram.pdf          — Entity-Relationship Diagram
 
 
 README.md            — This file
@@ -37,7 +37,7 @@ README.md            — This file
 
 ---
 
-## 🗄️ SQL Server Component
+## SQL Server Component
 
 **Server:** `mcruebs04.isad.isadroot.ex.ac.uk`
 
@@ -64,6 +64,6 @@ README.md            — This file
 
 ---
 
-## 🍃 MongoDB Component
+## MongoDB Component
 
 **Host:** `localhost:27017`
